@@ -1,0 +1,48 @@
+@media (max-width: 490px) {
+    #navbar li {
+        display: none;
+    }
+
+    #navbar #logo {
+        display: flex;
+    }
+
+    #bottom-header-links a {
+        display: none;
+    }
+
+    #bottom-header-links .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #main-content #subtitle {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 680px) {
+    #bottom-header-links a {
+        display: none;
+    }
+
+    #bottom-header-links .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #main-content #product-image {
+        max-width: 650px;
+    }
+}
